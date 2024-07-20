@@ -157,3 +157,27 @@ body {
   cursor: pointer;
 }
 
+/* *****Secondary nav bar styling***** */
+.sec-nav {
+  height: 40px;
+  background-color: #60bb46;
+}
+
+.sec-nav-items {
+  height: 100%;
+  padding-right: 50px;
+  padding-left: 90px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.sec-nav-items li {
+  list-style: none;
+}
+
+.sec-nav-items li a {
+  font-size: 13px;
+  color: #fff;
+  text-decoration: none;
+}
