@@ -9,9 +9,48 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
     <title>eSewa | Digital wallet in Nepal for Online payment services</title>
   </head>
   <body>
+    <!-- ******************Header Section****************** -->
+    <div class="header">
+      <div class="logo">
+        <a href="#">
+          <img src="../Images/logo/esewa_logo.png" alt="esewa_logo" />
+        </a>
+      </div>
+      <div class="search">
+        <i class="ri-search-line search-icon"></i>
+        <input
+          class="search-items"
+          type="text"
+          placeholder="Search services/merchant by tags (e.g. adsl)"
+        />
+        <i class="ri-close-line cross-icon"></i>
+      </div>
+      <div class="login-form">
+        <form action="">
+          <div class="position-icon">
+            <i class="ri-user-fill user-icon"></i>
+            <input type="tel" placeholder="eSewa ID" />
+          </div>
+          <div class="position-icon">
+            <i class="ri-lock-fill lock-icon"></i>
+            <div class="kdkd">
+              <input type="password" placeholder="Password" />
+              <a href="#" class="forgot-pass">Forgot Password?</a>
+            </div>
+          </div>
+          <button class="login">Login</button>
+          <button class="register">Register</button>
+        </form>
+      </div>
+    </div>
+    <!-- ******************End of Header Section****************** -->
     <script src="./script.js"></script>
   </body>
 </html>
