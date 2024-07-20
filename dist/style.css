@@ -266,3 +266,21 @@ li:hover i {
   border-radius: 5px;
   height: 350px;
 }
+
+/* ***sticky-phone*** */
+
+.sticky-phone {
+  height: 32px;
+  width: 32px;
+  background-color: #60bb46;
+  font-size: 18px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 280px;
+  right: 0px;
+  border-radius: 2px;
+  cursor: pointer;
+}
