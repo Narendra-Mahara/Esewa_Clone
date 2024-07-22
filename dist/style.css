@@ -11,6 +11,14 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #c2c5bd;
+}
+
 .header {
   /* position: sticky;
   top: 0;
@@ -453,8 +461,6 @@ li:hover i {
 .items:hover {
   border-radius: 0;
 }
-
-
 
 .items button {
   background-color: transparent;
