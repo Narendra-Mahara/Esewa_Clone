@@ -379,11 +379,15 @@ li:hover i {
   position: relative;
 }
 
+.popular-services-list::-webkit-scrollbar {
+  display: none;
+}
+
 .items {
   flex-shrink: 0;
   height: 200px;
   width: 205px;
-  margin-right: 25px;
+  margin-right: 22px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -450,14 +454,7 @@ li:hover i {
   border-radius: 0;
 }
 
-::-webkit-scrollbar {
-  display: none;
-}
 
-::-webkit-scrollbar-thumb {
-  background: #888; /* Color of the scrollbar thumb */
-  border-radius: 6px;
-}
 
 .items button {
   background-color: transparent;
