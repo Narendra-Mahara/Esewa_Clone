@@ -287,10 +287,50 @@ li:hover i {
   justify-content: center;
   align-items: center;
   position: fixed;
-  top: 280px;
+  top: 290px;
   right: 0px;
   border-radius: 2px;
-  cursor: pointer;
+}
+
+.sticky-phone-details {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+  width: 200px;
+  background-color: #fff;
+  border: 1px solid #e6e5e5;
+  box-shadow: 1px 1px 5px #333030;
+  position: fixed;
+  top: 230px;
+  right: 38px;
+  border-radius: 2px;
+  z-index: 1;
+  padding: 5px 0;
+}
+
+.sticky-phone-details h6 {
+  font-size: 12px;
+}
+
+.sticky-phone-details i {
+  color: #fff;
+  position: absolute;
+  right: -24px;
+  top: 46px;
+  font-size: 40px;
+}
+
+.line {
+  height: 1px;
+  width: 90%;
+  background-color: #e6e5e5;
+}
+
+.hide {
+  display: none;
 }
 
 /* *******Popular Services******** */
@@ -464,5 +504,4 @@ li:hover i {
 
 .slider:hover i {
   color: #fff;
-
 }
