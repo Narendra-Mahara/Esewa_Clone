@@ -432,16 +432,19 @@ li:hover i {
 }
 
 .popular-service-description {
+  margin-top: 12px;
   height: 25px;
+  width: 100%;
   text-align: center;
   padding: 0 5px;
+  text-align: center;
+  white-space: normal;
 }
 
 .popular-service-description h5 {
-  margin-top: 12px;
   font-size: 12px;
   color: #000;
-  word-wrap: break-word;
+  margin: 0;
 }
 
 .popular-service-description h5:hover {
